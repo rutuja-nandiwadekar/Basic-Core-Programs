@@ -22,5 +22,6 @@ public class FlipCoin {
 		tailpercentage = tailcount / (double) a * 100;
 		System.out.println("% of heads-" + headpercentage + "%");
 		System.out.println("% of tails-" + tailpercentage + "%");
+		sc.close();
 	}
 }
